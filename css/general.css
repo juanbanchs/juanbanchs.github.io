@@ -181,3 +181,11 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
+
+.header-class {
+  font-size: 1.75rem;
+}
+
+.options-class {
+  font-size: 1.125rem;
+}
