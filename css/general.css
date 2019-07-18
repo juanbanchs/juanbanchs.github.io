@@ -27,6 +27,7 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  font-size: 16px;
 }
 
 body {
@@ -48,14 +49,16 @@ body {
 
 .masthead-brand {
   margin-bottom: 0;
+  font-size: ;
 }
 
 .nav-masthead .nav-link {
-  padding: 0.25rem 0;
-  font-weight: 700;
+  padding: 0.25rem 0.25rem;
+  font-weight: 00;
   color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
   border-bottom: 0.25rem solid transparent;
+  font-size: 1.125rem;
 }
 
 .nav-masthead .nav-link:hover,
