@@ -10,7 +10,6 @@
     <meta name="author" content="Juan Banchs" />
     <meta name="generator" content="Jekyll v3.8.5" />
     <title>Juan Banchs</title>
-
     <!-- Bootstrap core CSS -->
     <link
       rel="stylesheet"
@@ -18,18 +17,30 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
     <!-- Custom styles for this template -->
     <link href="css/general.css" rel="stylesheet" />
   </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <body
+    data-spy="scroll"
+    data-target="#my-navbar"
+    data-offset="0"
+    class="text-center"
+  >
+    <div
+      id="Home"
+      class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column"
+    >
       <header class="masthead mb-auto">
-        <nav class="navbar navbar-expand-lg navbar-light bg-none fixed-top">
+        <nav
+          id="my-navbar"
+          class="navbar navbar-expand-lg navbar-light bg-none fixed-top"
+        >
           <a class="navbar-brand header-class text-white" href="#"
             >Juan's Portfolio</a
           >
-          <button
+          <!-- Who knows what this does? -->
+          <!-- <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
@@ -39,33 +50,32 @@
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
-          </button>
+          </button> -->
 
           <div
             class="collapse navbar-collapse ml-auto options-class"
             id="navbarSupportedContent"
           >
-            <ul class="navbar-nav ml-auto ">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link active text-white" href="#">Home</a>
+                <a class="nav-link active text-white" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Dreams</a>
+                <a class="nav-link text-white" href="#Dreams">Dreams</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link text-white" href="#">Projects</a>
+                <a class="nav-link text-white" href="#Projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Links</a>
+                <a class="nav-link text-white" href="#Links">Links</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link text-white" href="#Contact">Contact</a>
               </li>
             </ul>
           </div>
         </nav>
       </header>
-
       <main role="main" class="cover">
         <div class="container">
           <div class="row">
@@ -87,7 +97,13 @@
         </div>
       </main>
     </div>
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <h4 id="Dreams">
+        Dreams
+      </h4>
+    </div>
     <div
+      id="Projects"
       class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light"
     >
       <div class="col-md-5 p-lg-5 mx-auto my-5">
@@ -212,6 +228,18 @@
       </div>
     </div>
 
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <h4 id="Links">
+        Links
+      </h4>
+    </div>
+
+    <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <h4 id="Contact">
+        Contact
+      </h4>
+    </div>
+
     <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">
@@ -292,14 +320,9 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
-    <script>
-      window.jQuery ||
-        document.write(
-          '<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>'
-        );</script
-    ><script
-      src="/docs/4.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
   </body>
