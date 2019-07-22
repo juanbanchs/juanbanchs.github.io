@@ -182,29 +182,23 @@ body {
   overflow: hidden;
 }
 
-.header-class {
+.header-options {
   font-size: 1.75rem;
 }
 
-.options-class {
+.nav-link {
   font-size: 1.25rem;
   padding: 0.25rem 0.25rem;
+  border-bottom: 0.25rem solid transparent;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 .nav-link.active {
-  font-size: 1.5rem;
-  border-bottom: 0.25rem solid transparent;
-}
-
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
+  font-size: 1.25rem;
+  color: #fff !important;
   border-bottom-color: #fff;
+}
+
+.nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
