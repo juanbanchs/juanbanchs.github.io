@@ -37,7 +37,9 @@ body {
 }
 
 .cover-container {
-  background-image: url("../Photos/Picture 3.png");
+  background-image: url("../Photos/Picture 5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*
@@ -103,7 +105,14 @@ body {
 }
 
 .cover-title {
-  font-size: 50px;
+  font-size: 5rem;
+}
+
+.welcome-options {
+  background: rgba(0, 0, 0, 0.705);
+  border-radius: 25px;
+  margin-top: 275px;
+  margin-right: 50px;
 }
 
 .container {
@@ -180,4 +189,25 @@ body {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.header-options {
+  font-size: 2.25rem;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  padding: 0.25rem 0.25rem;
+  border-bottom: 0.25rem solid transparent;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.nav-link.active {
+  font-size: 1.25rem;
+  color: #fff !important;
+  border-bottom-color: #fff;
+}
+
+.nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.25);
 }
