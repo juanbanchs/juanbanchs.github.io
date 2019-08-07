@@ -37,7 +37,9 @@ body {
 }
 
 .cover-container {
-  background-image: url("../Photos/Picture 3.png");
+  background-image: url("../Photos/Picture 5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /*
@@ -103,7 +105,14 @@ body {
 }
 
 .cover-title {
-  font-size: 50px;
+  font-size: 5rem;
+}
+
+.welcome-options {
+  background: rgba(0, 0, 0, 0.705);
+  border-radius: 25px;
+  margin-top: 275px;
+  margin-right: 50px;
 }
 
 .container {
@@ -183,7 +192,7 @@ body {
 }
 
 .header-options {
-  font-size: 1.75rem;
+  font-size: 2.25rem;
 }
 
 .nav-link {
